@@ -368,7 +368,10 @@ fontFamily: 'Poppins-Bold'
   /* font-size: 30px; */
   color: red;
 }
-
+.image_width{
+  height: 100%;
+   width: 100%
+}
 .about_portfolioo{
   font-family: 'Poppins-Light';
   /* font-size: 30px; */

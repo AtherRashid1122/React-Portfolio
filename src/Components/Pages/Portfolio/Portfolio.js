@@ -227,7 +227,7 @@ const Portfolio = () => {
 
                                     return (
                                         <div className="div_img_style">
-                                            <img src={item.img} style={{ height: '100%', width: '100%' }} />
+                                            <img src={item.img} className="image_width" />
 
                                         </div>
                                     )
@@ -239,65 +239,14 @@ const Portfolio = () => {
 
                                     return (
                                         <div className="div_img_style">
-                                            <img src={item.img} style={{ height: '100%', width: '100%' }} />
+                                            <img src={item.img} className="image_width" />
 
                                         </div>
                                     )
                                 })
                             }
                         </div> : 'null'}
-
                 </div>
-
-                {/* <div className="about_main_div2">
-                    {count == 0 ?
-                        <div className="image_div2">
-                            {data && data.slice(0, 3).map((item, index) => {
-                                return (
-
-                                    <div key={index} className="img_style">
-                                        <img src={item.img} className="list_img" />
-                                    </div>
-
-                                )
-                            })
-                            }
-                        </div> : count == 1 ?
-                            <div className="image_div3" >
-                                {data && data.slice(3, 6).map((item, index) => {
-                                    return (
-                                        <div key={index} className="img_style">
-                                            <img src={item.img} className="list_img" />
-                                        </div>
-                                    )
-                                })
-                                }
-
-                            </div> : count == 2 ? <div className="image_div2">
-                                {data && data.slice(0, 3).map((item, index) => {
-                                    return (
-                                        <div key={index} className="img_style">
-                                            <img src={item.img} className="list_img" />
-                                        </div>
-                                    )
-                                })
-                                }
-                            </div> : count == 3 ? <div className="image_div3" >
-                                {data && data.slice(3, 6).map((item, index) => {
-                                    return (
-                                        <div key={index} className="img_style">
-                                            <img src={item.img} className="list_img" />
-                                        </div>
-                                    )
-                                })
-                                }
-                            </div> : null}
-                </div> */}
-
-
-
-
-
             </div>
 
 
@@ -307,9 +256,7 @@ const Portfolio = () => {
                     <h1 className="capabilities">
                         My Capabilities
                     </h1>
-                    {/* <h1 style={{ background: 'red', justifyContent: 'center', alignItems: 'center', alignContent: 'center', textAlign: 'center' }}>
 
-                    </h1> */}
 
                     <p className="person">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et t enim ad minim veniam, quis nostrud exercitation.
@@ -442,9 +389,7 @@ const Portfolio = () => {
                     <h1 className="capabilities">
                         Great Together
                     </h1>
-                    {/* <h1 style={{ background: 'red', justifyContent: 'center', alignItems: 'center', alignContent: 'center', textAlign: 'center' }}>
 
-    </h1> */}
 
                     <p className="person">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
