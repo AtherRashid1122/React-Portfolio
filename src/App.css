@@ -696,6 +696,9 @@ font-family: 'Poppins-Bold';
   width: 100px;
   height: 100px;
 }
+cli_img3:hover{
+  border: 10px solid red;
+}
 .client_leftdiv{
   background-image: url("../src/Components//images//map.png");
 }

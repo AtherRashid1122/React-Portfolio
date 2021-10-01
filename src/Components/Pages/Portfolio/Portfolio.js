@@ -27,6 +27,7 @@ import dotsimage from '../../images/dots.jpg'
 const Portfolio = () => {
 
     const [count, setcount] = useState('0')
+    const [count1, setcount1] = useState('0')
     const [data, setdata] = useState([
         {
             id: 0,
@@ -335,22 +336,32 @@ const Portfolio = () => {
 
                         <div className="client_leftdiv">
                             <div className="cli_pic">
-                                <img className="cli_img" src={client} />
-                                <img className="cli_img2" src={client_2} />
-                                <img className="cli_img3" src={client_2} />
+                                <img onClick={() => setcount1(0)} className="cli_img" src={client} />
+                                <img onClick={() => setcount1(1)} className="cli_img2" src={client_2} />
+                                <img onClick={() => setcount1(2)} className="cli_img3" src={client_2} />
                             </div>
                             <div className="cli_pic">
-                                <img className="cli_img3" src={client_2} />
-                                <img className="cli_img2" src={client_2} />
-                                <img className="cli_img" src={client} />
+                                <img onClick={() => setcount1(3)} className="cli_img3" src={client_2} />
+                                <img onClick={() => setcount1(4)} className="cli_img2" src={client_2} />
+                                <img onClick={() => setcount1(5)} className="cli_img" src={client} />
                             </div>
                         </div>
 
                         <div className="client_righttdiv">
                             <img src={pauseimage} className="client_portion" />
-                            <p className="text_description">
+                            {count1 == 0 ? <p className="text_description">
                                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt is the most explicabo.
-                            </p>
+                            </p> : count1 == 1 ? <p className="text_description">
+                                Tip: The word cascading means that a style applied to a parent element will also apply to all children elements within the parent. So, if you set the color of the body text to "blue", all headings, paragraphs, and other text elements within the body will also get the same color (unless you specify something else)!
+                            </p> : count1 == 2 ? <p className="text_description">
+                                The browser will calculate and select a width for the specified element. External style sheets can be referenced with a full URL or with a path relative to the current web page.
+                            </p> : count1 == 3 ? <p className="text_description">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt is the most explicabo.
+                            </p> : count1 == 4 ? <p className="text_description">
+                                Tip: The word cascading means that a style applied to a parent element will also apply to all children elements within the parent. So, if you set the color of the body text to "blue", all headings, paragraphs, and other text elements within the body will also get the same color (unless you specify something else)!
+                            </p> : count1 == 5 ? <p className="text_description">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt is the most explicabo.
+                            </p> : 'No Description'}
                             <div className="client_div">
                                 <img src={pauseimage} className="client_portion1" />
                             </div>
