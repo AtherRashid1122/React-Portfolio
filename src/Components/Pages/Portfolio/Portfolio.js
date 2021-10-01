@@ -81,7 +81,6 @@ import dotsimage from '../../images/dots.jpg'
 const Portfolio = () => {
 
     const [count, setcount] = useState('0')
-
     const [data, setdata] = useState([
         {
             id: 0,
@@ -351,7 +350,7 @@ const Portfolio = () => {
                             return (
 
                                 <div key={index} className="div_height">
-                                    <div className="card_styling"> <img src={item.img2} className="imagestyle" /></div>
+                                    <div className="card_styling"> <img src={item.img2} className="styling_img" /></div>
                                     <div style={{ textAlign: 'center' }}>
                                         <h3 className="style_color">
                                             {item.title}
@@ -377,7 +376,7 @@ const Portfolio = () => {
                 <div className="client_capabilities">
 
                     <div className="person_capability">
-                        <h1 style={{ textAlign: 'center', color: 'white', fontFamily: 'Poppins-Bold' }}>
+                        <h1 className="client_text">
                             What My Client Says
                         </h1>
 
@@ -407,7 +406,7 @@ const Portfolio = () => {
                                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt is the most explicabo.
                             </p>
                             <div className="client_div">
-                                <img src={pauseimage} className="client_portion" />
+                                <img src={pauseimage} className="client_portion1" />
                             </div>
                             <p className="text_description">
                                 - Sara Smith

@@ -282,7 +282,7 @@ fontFamily: 'Poppins-Bold'
 }
 .about_main_div2{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 auto;
   background-color: #040221;
   width: 90%;
@@ -317,13 +317,19 @@ fontFamily: 'Poppins-Bold'
 
 .image_style{
 
-  width:400px;
-  height:460px;
+  /* width:400px; */
+  /* height:460px; */
   /* margin-top: 10px; */
   /* margin:20px  */
   /* background-color: #0E0C38; */
 }
-
+.client_text{
+  font-size: 20px;
+  text-align: center;
+ color: white;
+   font-family: 'Poppins-Bold';
+  
+}
 .download_cv_button{
 
   padding: 10px;
@@ -382,8 +388,6 @@ fontFamily: 'Poppins-Bold'
 
   display: flex;
   width: 100%;
-
-
 
 }
 .portfolio_image{
@@ -654,6 +658,10 @@ align-self: center;
   padding-left: 5px;
   padding-right: 5px;
 }
+.btnnn{
+  font-size: 24px;
+  font-family: 'Poppins-Bold';
+}
 .logo_img{
   width: 300px;
   height: 90px;
@@ -662,6 +670,10 @@ align-self: center;
   border-radius: 25px;
   border:2px solid #fff;
   padding: 10px;
+}
+.satrt_btn{
+font-size: 24px;
+font-family: 'Poppins-Bold';
 }
 .home_main{
   margin-top: 0px !important;
@@ -745,7 +757,7 @@ justify-content: center;
       font-family:'Poppins-Light';
 }
 .person{
-  font-size: 23px;
+  font-size: 24px;
    color: white;
     margin: 30px;
      font-family: 'Poppins-Light';
@@ -797,17 +809,20 @@ font-size: 13px;
 }
 .textclient{
   color: white;
-  margin-top: -8px;
+  /* margin-top: -8px; */
   font-family: 'Poppins-Light';
 }
 .client_div{
   text-align: center;
-  height: 90px;
+  height: 40%;
 }
 .client_portion{
- height: 100%;
+ height: 40%;
 }
-.imagestyle{
+.client_portion1{
+  height: 80%;
+ }
+.styling_img{
   height: 150px;
   width: 150px;
    border-radius: 10px;
@@ -824,4 +839,454 @@ font-family:'Poppins-Bold'
 .text_align{
  width: 300px;
   height: 120px;
+}
+
+@media (max-width:1263px){
+
+  .name_home{
+    font-size:60px;
+    line-height:50px;
+    font-family: "Poppins-Bold";
+   
+  }
+  .client_text{
+    font-size: 24px;
+    text-align: center;
+   color: white;
+     font-family: 'Poppins-Bold';
+    
+  }
+  .btnnn{
+    font-size: 20px;
+    font-family: 'Poppins-Bold';
+  }
+  .paragraphfont{
+    font-size: 10px;
+    margin-top: 10px;
+    /* font-family: "Poppins-Light"; */
+  font-family: 'Poppins-Bold';
+  
+  }
+  .nav ul li{
+    float: left;
+    color: white;
+    list-style: none;
+    padding: 6px 10px;
+  
+  }
+    .icon_style{
+      margin-top: 10px;
+      font-size: 30px;
+      color: white;
+    }
+    .font_size{
+      margin-left: 10px;
+      font-size: 30px;
+      color: white;
+      
+    }
+    .hire_btn{
+      background-color: transparent;
+      padding: 10px;
+      color: #fff;
+      border-radius: 25px;
+      font-size: 14px;
+      width: 120px;
+      font-family: 'Raleway';
+      border: 2px solid white;
+      height: 40px;
+      font-family: 'Poppins-Bold';
+    }
+    .portfolio_btn{
+      /* background-color: #FF0513; */
+      padding: 10px;
+      color: #fff;
+      border-radius: 25px;
+      /* border-color: 2px solid #FF0513; */
+      font-size: 14px;
+      background-color: transparent;
+      color: wheat;
+      border-color: white;
+      width: 120px;
+      margin-left: 10px;
+      font-family: 'Raleway';
+      height: 40px;
+      font-family: 'Poppins-Bold';
+    }
+
+    
+    .image_right{
+      width:420px;
+      height:520px;
+      margin-left: 60px;
+    
+    }
+    .text_div_about{
+      font-size: 40px;
+     font-family:'Poppins-Bold'
+     }
+     .about_div_des{
+      margin-top: 40px;
+        
+       font-size: 20px;
+      font-family: 'Poppins-Light';
+      }
+      .about_main_div2{
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        background-color: #040221;
+        width: 90%;
+        margin-bottom: 70px;
+      }
+      .img_style{
+        height: 300px;
+         margin: 20px;
+         /* border: 2px solid black; */
+         borderRadius: 10px;
+      
+      }
+      .styling_img{
+        height: 120px;
+         width: 120px; 
+          border-radius: 10px;
+       }
+       .logo_img{
+        width: 260px;
+        height: 80px;
+      }
+      .text_align{
+        width: 260px;
+         height: 100px;
+       }
+       .satrt_btn{
+        font-size: 20px;
+        font-family: 'Poppins-Bold';
+      }
+      .cli_img{
+        width: 120px;
+        height: 120px;
+        margin-bottom: 16px;
+      }
+      .cli_img2{
+        width: 50px;
+        height: 50px;
+      }
+      .cli_img3{
+        width: 80px;
+        height: 80px;
+      }
+}
+
+
+
+@media (max-width:1082px){
+
+  .logo_img{
+    width: 240px;
+    height: 70px;
+  }
+  .text_align{
+    width: 220px;
+     height: 80px;
+   }
+  .name_home{
+    font-size:50px;
+    line-height:50px;
+    font-family: "Poppins-Bold";
+   
+  }
+  .btnnn{
+    font-size: 18px;
+    font-family: 'Poppins-Bold';
+  }
+  .satrt_btn{
+    font-size: 18px;
+
+  }
+  .person{
+    font-size: 20px;
+     color: white;
+      margin: 25px;
+       font-family: 'Poppins-Light';
+  }
+ 
+  .paragraphfont{
+    font-size: 10px;
+    margin-top: 10px;
+    /* font-family: "Poppins-Light"; */
+  font-family: 'Poppins-Bold';
+  
+  }
+  .nav ul li{
+    float: left;
+    color: white;
+    list-style: none;
+    padding: 6px 8px;
+  
+  }
+    .icon_style{
+      margin-top: 10px;
+      font-size: 20px;
+      color: white;
+    }
+    .font_size{
+      margin-left: 10px;
+      font-size: 20px;
+      color: white;
+      
+    }
+    .hire_btn{
+      background-color: transparent;
+      padding: 10px;
+      color: #fff;
+      border-radius: 25px;
+      font-size: 14px;
+      width: 100px;
+      font-family: 'Raleway';
+      border: 2px solid white;
+      height: 35px;
+      font-family: 'Poppins-Bold';
+    }
+    .portfolio_btn{
+      /* background-color: #FF0513; */
+      padding: 10px;
+      color: #fff;
+      border-radius: 25px;
+      /* border-color: 2px solid #FF0513; */
+      font-size: 14px;
+      background-color: transparent;
+      color: wheat;
+      border-color: white;
+      width: 100px;
+      margin-left: 10px;
+      font-family: 'Raleway';
+      height: 35px;
+      font-family: 'Poppins-Bold';
+    }
+    .image_about{
+
+      width:340px;
+      height:360px;
+      background-color: #0E0C38;
+      margin-top: 100px;
+      margin-bottom: 40px;
+    }
+    .image_right{
+      width:340px;
+      height:420px;
+      margin-left: 60px;
+    }
+    .text_div_about{
+      font-size: 28px;
+     font-family:'Poppins-Bold'
+     }
+     .about_div_des{
+      margin-top: 36px;
+        
+       font-size: 18px;
+      font-family: 'Poppins-Light';
+      }
+      .about_main_div2{
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        background-color: #040221;
+        width: 90%;
+        margin-bottom: 40px;
+      }
+      .img_style{
+        height: 240px;
+         margin: 18px;
+         /* border: 2px solid black; */
+         borderRadius: 10px;
+      
+      }
+      .styling_img{
+        height: 100px;
+         width: 100px; 
+          border-radius: 10px;
+       }
+       .logo_img{
+        width: 240px;
+        height: 70px;
+      }
+      .text_align{
+        width: 230px;
+         height: 90px;
+       }
+       .satrt_btn{
+        font-size: 18px;
+        font-family: 'Poppins-Bold';
+      }
+      .cli_img{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 16px;
+      }
+      .cli_img2{
+        width: 40px;
+        height: 40px;
+      }
+      .cli_img3{
+        width: 70px;
+        height: 70px;
+      }
+   
+}
+
+
+@media (max-width:896px){
+
+  .logo_img{
+    width: 220px;
+    height: 60px;
+  }
+  .text_align{
+    width: 220px;
+     height: 80px;
+   }
+  .name_home{
+    font-size:40px;
+    line-height:40px;
+    font-family: "Poppins-Bold";
+   
+  }
+  .btnnn{
+    font-size: 14px;
+    font-family: 'Poppins-Bold';
+  }
+  .satrt_btn{
+    font-size: 15px;
+
+  }
+  .person{
+    font-size: 16px;
+     color: white;
+      margin: 20px;
+       font-family: 'Poppins-Light';
+  }
+ 
+  .paragraphfont{
+    font-size: 8px;
+    margin-top: 8px;
+    /* font-family: "Poppins-Light"; */
+  font-family: 'Poppins-Bold';
+  
+  }
+  .nav ul li{
+    float: left;
+    color: white;
+    list-style: none;
+    padding: 5px 6px;
+  
+  }
+    .icon_style{
+      margin-top: 10px;
+      font-size: 12px;
+      color: white;
+    }
+    .font_size{
+      margin-left: 8px;
+      font-size: 12px;
+      color: white;
+      
+    }
+    .hire_btn{
+      background-color: transparent;
+      padding: 10px;
+      color: #fff;
+      border-radius: 25px;
+      font-size: 12px;
+      width: 70px;
+      font-family: 'Raleway';
+      border: 2px solid white;
+      height: 28px;
+      font-family: 'Poppins-Bold';
+    }
+    .portfolio_btn{
+      /* background-color: #FF0513; */
+      padding: 10px;
+      color: #fff;
+      border-radius: 25px;
+      /* border-color: 2px solid #FF0513; */
+      font-size: 12px;
+      background-color: transparent;
+      color: wheat;
+      border-color: white;
+      width: 70px;
+      margin-left: 10px;
+      font-family: 'Raleway';
+      height: 28px;
+      font-family: 'Poppins-Bold';
+    }
+    .image_about{
+
+      width:280px;
+      height:290px;
+      background-color: #0E0C38;
+      margin-top: 70px;
+      margin-bottom: 30px;
+    }
+    .image_right{
+      width:280px;
+      height:360px;
+      margin-left: 40px;
+    }
+    .text_div_about{
+      font-size: 24px;
+     font-family:'Poppins-Bold'
+     }
+     .about_div_des{
+      margin-top: 30px;
+        
+       font-size: 14px;
+      font-family: 'Poppins-Light';
+      }
+      .about_main_div2{
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        background-color: #040221;
+        width: 90%;
+        margin-bottom: 30px;
+      }
+      .img_style{
+        height: 180px;
+         margin: 14px;
+         /* border: 2px solid black; */
+      border-radius: 10px;
+      
+      }
+      .styling_img{
+        height: 80px;
+         width: 80px; 
+          border-radius: 10px;
+       }
+       .logo_img{
+        width: 180px;
+        height: 50px;
+      }
+      .text_align{
+        width: 180px;
+         height: 60px;
+       }
+       .satrt_btn{
+        font-size: 14px;
+        font-family: 'Poppins-Bold';
+      }
+      .cli_img{
+        width: 70px;
+        height: 70px;
+        margin-bottom: 16px;
+      }
+      .cli_img2{
+        width: 30px;
+        height: 30px;
+      }
+      .cli_img3{
+        width: 40px;
+        height: 40px;
+      }
+   
 }
