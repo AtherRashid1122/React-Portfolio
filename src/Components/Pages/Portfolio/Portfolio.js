@@ -22,6 +22,7 @@ import portfolioimage from '../../images/Portfolio.png'
 import client from '../../images/1.png'
 import client_2 from '../../images/22.png'
 import dotsimage from '../../images/dots.jpg'
+import glassesperson from '../../images/glaseesperson.png'
 
 // import './App.css'
 const Portfolio = () => {
@@ -336,14 +337,14 @@ const Portfolio = () => {
 
                         <div className="client_leftdiv">
                             <div className="cli_pic">
-                                <img onClick={() => setcount1(0)} className="cli_img" src={client} />
+                                <img onClick={() => setcount1(0)} className="cli_img" src={glassesperson} />
                                 <img onClick={() => setcount1(1)} className="cli_img2" src={client_2} />
                                 <img onClick={() => setcount1(2)} className="cli_img3" src={client_2} />
                             </div>
                             <div className="cli_pic">
-                                <img onClick={() => setcount1(3)} className="cli_img3" src={client_2} />
+                                <img onClick={() => setcount1(3)} className="cli_img3" src={glassesperson} />
                                 <img onClick={() => setcount1(4)} className="cli_img2" src={client_2} />
-                                <img onClick={() => setcount1(5)} className="cli_img" src={client} />
+                                <img onClick={() => setcount1(5)} className="cli_img" src={glassesperson} />
                             </div>
                         </div>
 

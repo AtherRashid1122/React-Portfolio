@@ -688,16 +688,28 @@ font-family: 'Poppins-Bold';
   height: 150px;
   margin-bottom: 20px;
 }
+
+.cli_img:hover{
+  border: 5px solid red;
+  border-radius: 100%;
+}
 .cli_img2{
   width: 70px;
   height: 70px;
 }
+.cli_img2:hover{
+  border: 5px solid red;
+  border-radius: 100%;
+}
 .cli_img3{
   width: 100px;
   height: 100px;
+  /* border: 2px solid green;
+  border-radius: 100%; */
 }
-cli_img3:hover{
-  border: 10px solid red;
+.cli_img3:hover{
+  border: 5px solid red;
+  border-radius: 100%;
 }
 .client_leftdiv{
   background-image: url("../src/Components//images//map.png");
