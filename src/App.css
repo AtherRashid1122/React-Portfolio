@@ -366,7 +366,7 @@ fontFamily: 'Poppins-Bold'
 .about_portfolio{
   font-family: 'Poppins-Light';
   /* font-size: 30px; */
-  color: white;
+  color: red;
 }
 
 .about_portfolioo{
@@ -412,6 +412,11 @@ fontFamily: 'Poppins-Bold'
   margin-bottom: 60px;
   margin-top: 50px;
   
+}
+.div_img_style:hover{
+  transform: scale(1.1);
+  transition: 1s ease;
+  opacity: 0.2;
 }
 .backicon{
   justify-content: center;
@@ -571,6 +576,19 @@ align-self: center;
   margin-top: 60px;
 }
 
+.div_style{
+  display: flex;
+  flex-wrap: wrap;
+   justify-content: space-around;
+margin-top: 20px;
+   margin-bottom: 100px;
+   
+}
+.div_img_style{
+height: 300px;
+width: 370px;
+  margin: 15px;
+}
 .hire_frombtn:hover{
 
   background-color: red;

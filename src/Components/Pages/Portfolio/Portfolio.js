@@ -194,7 +194,62 @@ const Portfolio = () => {
                         </h4>
                     </div>
                 </div>
+
                 <div className="about_main_div2">
+                    {count == 0 ?
+                        <div className="div_style">
+                            {
+                                data && data.map((item, index) => {
+
+                                    return (
+                                        <div className="div_img_style">
+                                            <img src={item.img} style={{ height: '100%', width: '100%' }} />
+
+                                        </div>
+                                    )
+                                })
+                            }
+                        </div> : count == 1 ? <div className="div_style">
+                            {
+                                data && data.slice(0, 3).map((item, index) => {
+
+                                    return (
+                                        <div className="div_img_style">
+                                            <img src={item.img} style={{ height: '100%', width: '100%' }} />
+
+                                        </div>
+                                    )
+                                })
+                            }
+                        </div> : count == 2 ? <div className="div_style">
+                            {
+                                data && data.slice(3, 6).map((item, index) => {
+
+                                    return (
+                                        <div className="div_img_style">
+                                            <img src={item.img} style={{ height: '100%', width: '100%' }} />
+
+                                        </div>
+                                    )
+                                })
+                            }
+                        </div> : count == 3 ? <div className="div_style">
+                            {
+                                data && data.slice(0, 3).map((item, index) => {
+
+                                    return (
+                                        <div className="div_img_style">
+                                            <img src={item.img} style={{ height: '100%', width: '100%' }} />
+
+                                        </div>
+                                    )
+                                })
+                            }
+                        </div> : 'null'}
+
+                </div>
+
+                {/* <div className="about_main_div2">
                     {count == 0 ?
                         <div className="image_div2">
                             {data && data.slice(0, 3).map((item, index) => {
@@ -237,7 +292,7 @@ const Portfolio = () => {
                                 })
                                 }
                             </div> : null}
-                </div>
+                </div> */}
 
 
 
